@@ -1,20 +1,20 @@
 @font-face {
     font-family: 'Open Sans regular';
-    src: url("/fonts/Regular/OpenSans-Regular.woff2?v=1.1.0") format("woff2"), url("/fonts/Regular/OpenSans-Regular.woff?v=1.1.0") format("woff");
+    src: url("./fonts/Regular/OpenSans-Regular.woff2?v=1.1.0") format("woff2"), url("./fonts/Regular/OpenSans-Regular.woff?v=1.1.0") format("woff");
     font-weight: 600;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Open Sans semi';
-    src: url("/fonts/Semibold/OpenSans-Semibold.woff2?v=1.1.0") format("woff2"), url("/fonts/Semibold/OpenSans-Semibold.woff?v=1.1.0") format("woff");
+    src: url("./fonts/Semibold/OpenSans-Semibold.woff2?v=1.1.0") format("woff2"), url("./fonts/Semibold/OpenSans-Semibold.woff?v=1.1.0") format("woff");
     font-weight: 600;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Open Sans bold';
-    src: url("/fonts/Bold/OpenSans-Bold.woff2") format("woff2"), url("/fonts/Bold/OpenSans-Bold.woff") format("woff");
+    src: url("./fonts/Bold/OpenSans-Bold.woff2") format("woff2"), url("./fonts/Bold/OpenSans-Bold.woff") format("woff");
     font-weight: bold;
     font-style: normal;
 }
@@ -22,7 +22,7 @@
 
 @font-face {
     font-family: 'M';
-    src: url("/fonts/MYRIADPRO-REGULAR.woff") format("woff");
+    src: url("./fonts/MYRIADPRO-REGULAR.woff") format("woff");
     font-weight: normal;
     font-style: normal;
 }
