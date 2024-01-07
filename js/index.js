@@ -69,3 +69,13 @@ document.onclick = function (e){
     }
 }
 
+//hide menu on scroll
+var prevScrollpos = window.scrollY;
+window.onscroll = function() {
+  var currentScrollPos = window.scrollY;
+  if (prevScrollpos < currentScrollPos) {
+    element2.classList.remove("active_menu");
+    element1.classList.remove("icon_cross");
+  }
+  prevScrollpos = currentScrollPos;
+}
