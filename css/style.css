@@ -410,7 +410,7 @@ about_section --------------------------------*/
 
 .slick-prev::before {
     content: "";
-    background: url("/images/left-arrow.png");
+    background: url("./images/left-arrow.png");
     display: block;
     width: 14px;
     height: 23px;
@@ -422,7 +422,7 @@ about_section --------------------------------*/
 
 .slick-next::after {
     content: "";
-    background: url("/images/right_arrow.png");
+    background: url("./images/right_arrow.png");
     display: block;
     width: 14px;
     height: 23px;
